@@ -18,10 +18,11 @@ print(len("--" * 50))
 # long_word("Python")         => False
 # long_word("magnificent")    => True
 
-def long_word(a_string: str):
+def long_word(a_string: str) -> bool:
     return len(a_string) > 7
 
-print(long_word("David Wynia"))
+print(long_word("Python") )
+print(long_word("magnificent"))
 
 # Define a first_longer_than_second function that accepts two string arguments. 
 # The function should return a True if the first string is longer than the second 
@@ -31,7 +32,9 @@ print(long_word("David Wynia"))
 # first_longer_than_second("Python", "Ruby")     => True
 # first_longer_than_second("cat", "mouse")       => False
 # first_longer_than_second("Steven", "Seagal")   => False
-def first_longer_than_second(str1 : str, str2: str):
+def first_longer_than_second(str1 : str, str2: str) -> bool:
     return len(str1) > len(str2)
 
-print(first_longer_than_second("abc","ab"))
+print(first_longer_than_second("Python", "Ruby") )
+print(first_longer_than_second("cat", "mouse"))
+print(first_longer_than_second("Steven", "Seagal"))
