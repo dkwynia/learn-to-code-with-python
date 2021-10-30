@@ -20,3 +20,6 @@ print("Steven" not in announcement) #prints True
 print(" " not in announcement) #prints False, there is a space in announcment
 print("," not in announcement)
 
+print("and" in "commando")
+
+print("destiny"[6:])

@@ -1,5 +1,5 @@
 #escape characters always begin with \
-
+#new line
 print("This will \nbegin on a \nnew line")
 
 #tab
@@ -33,3 +33,5 @@ final = some_random_number + \
         some_additional_statistic_fetched_from_somewhere
 
 print(final)
+
+print("misfortune"[10])
