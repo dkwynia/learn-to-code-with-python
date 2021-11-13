@@ -12,3 +12,14 @@ print(browser.find("o",3)) #still returns the index of the character, but it sta
 browser = "Google Chrome"
 print(browser.index("C"))
 print(browser.index("Z")) #find returns -1, index crashes out with a ValueError
+
+txt = "Hello, welcome to my world."
+
+print(txt.rfind("o"))
+print(txt.rindex("o"))
+
+browser = "Google Chrome"
+
+print(browser.rfind("o"))
+print(browser.rfind("O"))
+print(browser.rfind("G"))
